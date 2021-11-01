@@ -1,0 +1,22 @@
+.oldTest {
+    margin-top: 60px;
+}
+.newtest {
+    margin-bottom: 300px;
+}
+.introComment {
+    margin-top: 100px;    
+}
+h2 {
+    padding: 25px;
+    text-align: center;
+}
+h1 {
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+    background-color: goldenrod;
+}
+h1 a {
+    text-decoration: none;
+}

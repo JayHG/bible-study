@@ -1,0 +1,24 @@
+.container {
+    background: goldenrod;
+    width: 100%;
+    max-width: 100%;
+}
+
+.app-name {
+    font-size: 2em;
+    float: left;
+}
+ul {
+    list-style: none;
+    float: right;
+}
+li {
+    display: inline;
+    margin: 1em;
+}
+li a {
+    text-decoration: none;
+}
+.nav-tabs {
+    border: none;
+}
