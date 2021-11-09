@@ -10,6 +10,8 @@ import { NewtestamentComponent } from './newtestament/newtestament.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 
+import { OldtestamentService } from './oldtestament/oldtestament.service';
+
 const appRoutes: Routes = [
   { path: '', component: AppComponent },
   { path: 'oldtestament', component: OldtestamentComponent },
@@ -32,7 +34,7 @@ const appRoutes: Routes = [
     AppRoutingModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [],
+  providers: [OldtestamentService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
